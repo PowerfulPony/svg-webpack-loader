@@ -1,0 +1,46 @@
+{
+  "name": "svg-webpack-loader",
+  "version": "0.0.1",
+  "author": "Victor Zakharenko <victor@pony.ninja>",
+  "description": "Loading SVG asset as asset and as string optimized via SVGO",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "loader",
+    "svg",
+    "inline",
+    "string",
+    "asset",
+    "raw",
+    "svgo",
+    "optimization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowerfulPony/svg-webpack-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PowerfulPony/svg-webpack-loader/issues"
+  },
+  "homepage": "https://github.com/PowerfulPony/svg-webpack-loader#readme",
+  "main": "loader.js",
+  "files": [
+    "loader.js"
+  ],
+  "scripts": {
+    "example": "webpack --config ./example/webpack.config.js --mode production",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "svgo": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
