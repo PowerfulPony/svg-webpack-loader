@@ -1,6 +1,6 @@
 {
   "name": "svg-webpack-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Victor Zakharenko <victor@pony.ninja>",
   "description": "Loading SVG asset as asset and as string optimized via SVGO",
   "license": "MIT",
